@@ -12,6 +12,15 @@ footer {
   padding: 30px;
   margin-bottom: 20px;
 }
+header,
+nav,
+section,
+aside,
+footer {
+  border: 5px solid black;
+  padding: 30px;
+  margin: 25px;
+}
 header::before,
 nav::before,
 section::before,
