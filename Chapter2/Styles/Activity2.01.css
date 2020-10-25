@@ -1,0 +1,39 @@
+header,
+nav,
+section,
+aside,
+footer {
+  background: cornflowerblue;
+  border-radius: 5px;
+  color: cornsilk;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+header::before,
+nav::before,
+section::before,
+aside::before,
+footer::before {
+  content: "<--";
+}
+header::after,
+nav::after,
+section::after,
+aside::before,
+footer::after {
+  content: "-->";
+}
+section {
+  float: left;
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 40%-10px;
+}
+footer {
+  clear: both;
+}

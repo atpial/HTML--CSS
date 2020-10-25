@@ -1,0 +1,48 @@
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+  font: message-box;
+  font-style: initial;
+  font-variant: initial;
+  margin: auto;
+  padding-bottom: 6px;
+}
+p {
+  background-color: skyblue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: blanchedalmond;
+  background-position: center;
+  background: coral;
+}
+p:first-of-type {
+  color: darkcyan;
+  text-decoration: line-through;
+}
+p:nth-last-of-type(odd) {
+  color: red;
+  background-color: black;
+}
+h1::first-letter {
+  font-size: 5rem;
+}
+ul {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 2px;
+  padding: 5px;
+}
+li {
+  display: block;
+  padding: 16px;
+  color: wheat;
+  font-weight: bold;
+}
+li:nth-child(3n-1) {
+  background-color: royalblue;
+}
+li:nth-child(3n) {
+  background-color: skyblue;
+}
+li:nth-child(3n-2) {
+  background-color: steelblue;
+}
